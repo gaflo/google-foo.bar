@@ -61,7 +61,7 @@ def get_path(start, nodes, exits):
 def dfs_recursive(node, nodes, visited, exits):
     """
     recursive depth first search
-    :param node: current_node
+    :param node: current node
     :param nodes: adjacency list
     :param visited: list of visited nodes
     :param exits: list of exit nodes
