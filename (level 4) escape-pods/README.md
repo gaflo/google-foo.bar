@@ -28,15 +28,8 @@
 
 	So, in total, 16 bunnies could make it to the escape pods at 4 and 5 at each time step.  (Note that in this example, room 3 could have sent any variation of 8 bunnies to 4 and 5, such as 2/6 and 6/6, but the final answer remains the same.)
 
-	Languages
-	=========
-
-	To provide a Python solution, edit solution.py
-	To provide a Java solution, edit solution.java
-
 	Test cases
 	==========
-
 	Inputs:
 		(int list) entrances = [0]
 		(int list) exits = [3]

@@ -29,16 +29,9 @@
 		3   4    -1    0 Bulkhead reopens; you and the bunnies exit
 
 	With this solution, you would pick up bunnies 1 and 2. This is the best combination for this space station hallway, so the answer is [1, 2].
-
-	Languages
-	=========
-
-	To provide a Python solution, edit solution.py
-	To provide a Java solution, edit solution.java
-
+	
 	Test cases
 	==========
-
 	Inputs:
 		(int) times = [
 						[0, 1, 1, 1, 1], 
