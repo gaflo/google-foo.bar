@@ -2,11 +2,21 @@
 	Escape Pods
 	===========
 
-	You've blown up the LAMBCHOP doomsday device and broken the bunnies out of Lambda's prison - and now you need to escape from the space station as quickly and as orderly as possible! The bunnies have all gathered in various locations throughout the station, and need to make their way towards the seemingly endless amount of escape pods positioned in other parts of the station. You need to get the numerous bunnies through the various rooms to the escape pods. Unfortunately, the corridors between the rooms can only fit so many bunnies at a time. What's more, many of the corridors were resized to accommodate the LAMBCHOP, so they vary in how many bunnies can move through them at a time. 
-
-	Given the starting room numbers of the groups of bunnies, the room numbers of the escape pods, and how many bunnies can fit through at a time in each direction of every corridor in between, figure out how many bunnies can safely make it to the escape pods at a time at peak.
-
-	Write a function answer(entrances, exits, path) that takes an array of integers denoting where the groups of gathered bunnies are, an array of integers denoting where the escape pods are located, and an array of an array of integers of the corridors, returning the total number of bunnies that can get through at each time step as an int. The entrances and exits are disjoint and thus will never overlap. The path element path[A][B] = C describes that the corridor going from A to B can fit C bunnies at each time step.  There are at most 50 rooms connected by the corridors and at most 2000000 bunnies that will fit at a time.
+	You've blown up the LAMBCHOP doomsday device and broken the bunnies out of Lambda's prison - and now you need to escape 
+	from the space station as quickly and as orderly as possible! The bunnies have all gathered in various locations 
+	throughout the station, and need to make their way towards the seemingly endless amount of escape pods positioned in 
+	other parts of the station. You need to get the numerous bunnies through the various rooms to the escape pods. 
+	Unfortunately, the corridors between the rooms can only fit so many bunnies at a time. What's more, many of the 
+	corridors were resized to accommodate the LAMBCHOP, so they vary in how many bunnies can move through them at a time. 
+	Given the starting room numbers of the groups of bunnies, the room numbers of the escape pods, and how many bunnies can 
+	fit through at a time in each direction of every corridor in between, figure out how many bunnies can safely make it to 
+	the escape pods at a time at peak.
+	Write a function answer(entrances, exits, path) that takes an array of integers denoting where the groups of gathered 
+	bunnies are, an array of integers denoting where the escape pods are located, and an array of an array of integers of 
+	the corridors, returning the total number of bunnies that can get through at each time step as an int. The entrances 
+	and exits are disjoint and thus will never overlap. The path element path[A][B] = C describes that the corridor going 
+	from A to B can fit C bunnies at each time step.  There are at most 50 rooms connected by the corridors and at most 
+	2000000 bunnies that will fit at a time.
 
 	For example, if you have:
 	entrances = [0, 1]
