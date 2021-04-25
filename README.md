@@ -3,4 +3,4 @@ My submissions for the foo.bar programming challenges made by Google. All progra
 
 If there is interest, I can provide the unit tests I made to assert whether my programs were working correctly while I was making them.
 
-Currently there is only one level included; will update with more once I got the time to write descriptions (I don't think just uploading the solution is of much value).
+Currently the next step on this repository would be to annotate and explain the solutions.
